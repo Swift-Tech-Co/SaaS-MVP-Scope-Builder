@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SaaS MVP Scope Builder — Swift Tech Co.</title>
+<title>SaaS MVP Scope Builder â€” Swift Tech Co.</title>
 <meta name="description" content="Free SaaS MVP scope builder. Define your MVP feature set, get a cost range and timeline, and see what to defer to v2. Used by 1,000+ founders.">
 <link rel="canonical" href="https://swifttechco.com/tools/saas-mvp-scope-builder">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -70,7 +70,7 @@
 <div class="hero">
   <div class="badge">Free Tool</div>
   <h1>SaaS MVP <span>Scope Builder</span></h1>
-  <p>Define your MVP in 90 seconds. Get a recommended feature set, what to defer to v2, a timeline, and a cost range — all based on your vertical and target users.</p>
+  <p>Define your MVP in 90 seconds. Get a recommended feature set, what to defer to v2, a timeline, and a cost range â€” all based on your vertical and target users.</p>
   <p class="live-link">Full interactive version: <a href="https://swifttechco.com/tools/saas-mvp-scope-builder" target="_blank">swifttechco.com/tools/saas-mvp-scope-builder</a></p>
 </div>
 
@@ -115,9 +115,9 @@
   <div class="mb20">
     <label class="lbl">Timeline Pressure</label>
     <div class="radio-group" id="timeline-group">
-      <label class="radio-row" onclick="selectRadio(this,'timeline-group')"><input type="radio" name="tl" value="0.7"><span>ASAP — under 3 months</span></label>
-      <label class="radio-row" onclick="selectRadio(this,'timeline-group')"><input type="radio" name="tl" value="1"><span>Standard — 3 to 6 months</span></label>
-      <label class="radio-row" onclick="selectRadio(this,'timeline-group')"><input type="radio" name="tl" value="1"><span>Flexible — 6+ months</span></label>
+      <label class="radio-row" onclick="selectRadio(this,'timeline-group')"><input type="radio" name="tl" value="0.7"><span>ASAP â€” under 3 months</span></label>
+      <label class="radio-row" onclick="selectRadio(this,'timeline-group')"><input type="radio" name="tl" value="1"><span>Standard â€” 3 to 6 months</span></label>
+      <label class="radio-row" onclick="selectRadio(this,'timeline-group')"><input type="radio" name="tl" value="1"><span>Flexible â€” 6+ months</span></label>
     </div>
   </div>
 
@@ -152,8 +152,8 @@
 <hr class="divider">
 <div class="about" style="max-width:760px;margin:0 auto 40px">
   <h2 style="font-family:'Playfair Display',serif;font-size:24px;font-weight:700;color:#fff;margin-bottom:12px">About Swift Tech Co.</h2>
-  <p>Swift Tech Co. has built 80+ SaaS products from MVP to scale — B2B platforms, HR tools, FinTech SaaS, analytics engines, and AI-powered products. We know what belongs in a v1 and what kills startups when included too early.</p>
-  <p>We work with seed-stage founders, Series A teams, and enterprise innovation labs. Our SaaS builds include auth, billing, multi-tenancy, API design, admin tools, and production-grade DevOps from day one — not as afterthoughts.</p>
+  <p>Swift Tech Co. has built 80+ SaaS products from MVP to scale â€” B2B platforms, HR tools, FinTech SaaS, analytics engines, and AI-powered products. We know what belongs in a v1 and what kills startups when included too early.</p>
+  <p>We work with seed-stage founders, Series A teams, and enterprise innovation labs. Our SaaS builds include auth, billing, multi-tenancy, API design, admin tools, and production-grade DevOps from day one â€” not as afterthoughts.</p>
   <table class="service-table">
     <tr><td>SaaS Platform Development</td><td><a href="https://swifttechco.com/services/digital/saas-development" target="_blank">View Service</a></td></tr>
     <tr><td>AI Automation and Custom AI</td><td><a href="https://swifttechco.com/services/digital/software-development" target="_blank">View Service</a></td></tr>
@@ -164,8 +164,8 @@
 </div>
 
 <footer>
-  <p style="margin-bottom:8px">Built and maintained by <a href="https://swifttechco.com" target="_blank">Swift Tech Co.</a> — SaaS, AI, FinTech, and Enterprise Software</p>
-  <p>MIT License — free to use, fork, and embed. <a href="https://swifttechco.com/contact" target="_blank">Contact us</a> for custom builds.</p>
+  <p style="margin-bottom:8px">Built and maintained by <a href="https://swifttechco.com" target="_blank">Swift Tech Co.</a> â€” SaaS, AI, FinTech, and Enterprise Software</p>
+  <p>MIT License â€” free to use, fork, and embed. <a href="https://swifttechco.com/contact" target="_blank">Contact us</a> for custom builds.</p>
 </footer>
 
 <script>
@@ -189,11 +189,12 @@ function calculate(){
   document.getElementById('cost-range').textContent='$'+low+'K to $'+high+'K';
   document.getElementById('timeline').textContent=Math.round(wks)+' weeks';
   const mvpEl=document.getElementById('mvp-features');
-  mvpEl.innerHTML='<div class="feat-label">Include in MVP:</div>'+essentials.map(f=>'<div class="feat-item">✓ '+f+'</div>').join('');
+  mvpEl.innerHTML='<div class="feat-label">Include in MVP:</div>'+essentials.map(f=>'<div class="feat-item">âœ“ '+f+'</div>').join('');
   const dEl=document.getElementById('deferred-features');
-  dEl.innerHTML=deferred.length?'<div class="feat-label">Defer to v2 (save time and budget):</div>'+deferred.map(f=>'<div class="feat-item defer">◌ '+f+'</div>').join(''):'';
+  dEl.innerHTML=deferred.length?'<div class="feat-label">Defer to v2 (save time and budget):</div>'+deferred.map(f=>'<div class="feat-item defer">â—Œ '+f+'</div>').join(''):'';
   const r=document.getElementById('result');r.classList.add('show');r.scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 </script>
 </body>
 </html>
+
