@@ -1,0 +1,12 @@
+{
+  "name": "saas-mvp-scope-builder",
+  "version": "1.0.0",
+  "description": "SaaS MVP scope, timeline, and cost estimator — Swift Tech Co.",
+  "main": "calculator.js",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": ["saas", "mvp", "scope", "cost-estimation", "swift-tech-co"],
+  "license": "MIT",
+  "homepage": "https://swifttechco.com/services/saas/saas-platform-development"
+}
