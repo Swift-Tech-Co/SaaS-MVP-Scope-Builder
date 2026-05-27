@@ -1,5 +1,15 @@
 ﻿# SaaS MVP Scope Builder
+[![npm](https://img.shields.io/npm/v/saas-mvp-scope-builder.svg)](https://www.npmjs.com/package/saas-mvp-scope-builder) [![npm downloads](https://img.shields.io/npm/dm/saas-mvp-scope-builder.svg)](https://www.npmjs.com/package/saas-mvp-scope-builder)
 
+## Install
+
+```bash
+npm install saas-mvp-scope-builder
+```
+
+```javascript
+const calc = require('saas-mvp-scope-builder');
+```
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Interactive Tool](https://img.shields.io/badge/Interactive-Tool-informational)](https://swifttechco.com) [![Swift Tech Co.](https://img.shields.io/badge/Swift%20Tech-Co.-gold)](https://swifttechco.com)
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-brightgreen)](https://swifttechco.com)
