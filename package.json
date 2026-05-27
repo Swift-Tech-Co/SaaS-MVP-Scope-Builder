@@ -1,0 +1,15 @@
+{
+  "name": "saas-mvp-scope-builder",
+  "version": "1.0.0",
+  "description": "Scope a SaaS MVP: feature breakdown, cost estimate, and build timeline by team type.",
+  "main": "javascript/calculator.js",
+  "scripts": { "cli": "node javascript/cli.js" },
+  "keywords": ["saas","mvp","scope","calculator","cost-estimation","startup","swift-tech-co"],
+  "author": "Swift Tech Co. <swifttechcocanada@gmail.com> (https://swifttechco.com)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/Swift-Tech-Co/SaaS-MVP-Scope-Builder.git" },
+  "bugs": { "url": "https://github.com/Swift-Tech-Co/SaaS-MVP-Scope-Builder/issues" },
+  "homepage": "https://swifttechco.com/tools/saas-mvp-scope-builder",
+  "engines": { "node": ">=14" },
+  "files": ["javascript/calculator.js", "README.md", "LICENSE"]
+}
